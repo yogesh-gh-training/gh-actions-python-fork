@@ -14,4 +14,4 @@ def test_weather_api():
 if __name__ == "__main__":
     test_geocoding_api()
     test_weather_api()
-    print("All tests passed")
+    print("All tests passed. Testing auto merge")
