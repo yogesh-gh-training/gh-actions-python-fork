@@ -1,0 +1,4 @@
+Flask
+requests==2.27.1
+gunicorn
+mock
