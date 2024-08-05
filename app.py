@@ -27,7 +27,6 @@ def list_properties_file():
         return "Properties file not found."
     except Exception as e:
         return f"An error occurred: {e}"
-
 # http://localhost:5000/place/berlin
 @app.route('/place/<name>')
 def get_location_details(name):
